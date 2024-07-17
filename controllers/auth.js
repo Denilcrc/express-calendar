@@ -49,6 +49,8 @@ const crearUsuario = async(req, res = response) => { //? endpoint para crear un 
         })
     }
 
+    //! ojo con no hacer ningun return despues del catch
+
 };
 
 const loginUsuario = async(req, res = response) => { //? endpoint de login
@@ -96,6 +98,8 @@ const loginUsuario = async(req, res = response) => { //? endpoint de login
             msg: 'Contactar con un admin'
         })
     }
+
+    //! ojo con no hacer ningun return despues del catch
     
 };
 

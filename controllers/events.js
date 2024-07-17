@@ -41,6 +41,8 @@ const crearEvento = async(req, res = response) => {
         })
     }
 
+    //! ojo con no hacer ningun return despues del catch
+
 }
 
 const actualizarEvento = async(req, res = response) => { //12345 como id para llamar el evento
@@ -89,6 +91,8 @@ const actualizarEvento = async(req, res = response) => { //12345 como id para ll
         })
     }
 
+    //! ojo con no hacer ningun return despues del catch
+
 }
 
 const eliminarEvento = async(req, res = response) => { //12345 como id para llamar el evento
@@ -129,6 +133,7 @@ const eliminarEvento = async(req, res = response) => { //12345 como id para llam
         })
     }
 
+    //! ojo con no hacer ningun return despues del catch
 
 }
 
