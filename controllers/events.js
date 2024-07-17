@@ -41,11 +41,6 @@ const crearEvento = async(req, res = response) => {
         })
     }
 
-    res.status(200).json({
-        ok: true,
-        msg: 'crear eventos'
-    })
-
 }
 
 const actualizarEvento = async(req, res = response) => { //12345 como id para llamar el evento
