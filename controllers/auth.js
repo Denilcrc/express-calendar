@@ -115,6 +115,8 @@ const revalidarToken = async(req, res = response) => { //? endpoint que genera u
         ok: true,
         msg: 're-new',
         token,
+        uid,
+        name
     })
 
 };
